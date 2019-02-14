@@ -1,0 +1,189 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    color:white;
+}
+
+body{
+    background-image: url("../background.gif");
+    background-repeat:repeat;
+    padding: 0.5em;
+    
+}
+
+/* Header */
+.header{
+    width: 80%;
+    border: 1px solid lightgrey;
+    margin: 0.5rem auto;
+    background-size: cover;
+    background-color: white;
+    background-image: url("../header.png");
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+    padding-bottom: 10%;
+     border-radius: 8px;
+}
+
+/* Website wrapper */
+.wrapper{
+    display: flex;
+    width: 80%;
+    border: 1px solid lightgrey;
+    flex-direction: row;
+    margin: 0.5rem auto;
+    text-align: center;
+    background-color: grey;
+    border-radius: 8px;
+}
+
+.wrapper > div {
+    padding: 30px;
+}
+
+/* Navigation */
+.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid lightgrey;
+    margin: 0.5rem auto;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menu li {
+  float: left;
+  margin: 2px;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border:1px solid grey;
+  border-radius: 8px;
+  background-color: darkslategray;
+  
+}
+
+.menu li a:hover {
+  background-color: #111;
+}
+
+/* Menu Setup */
+menu{
+    border:1px solid grey;
+    margin-bottom:8%;
+    padding: 2%;
+}
+
+
+
+/* Left column */
+.left{
+    margin:2% 2%;
+    background-color: #333;
+    border-radius: 8px;
+    flex: 2; 
+}
+
+/* Center column */
+.middle{
+    margin:2% 2%;
+    background-color: #333;
+    border-radius: 8px;
+    flex: 6; 
+    
+}
+
+.middle p{
+    width: 100%;
+}
+
+/* Right column */
+.right{
+    margin:2% 2%;
+    background-color: #333;
+    border-radius: 8px;
+    flex: 2; 
+    
+}
+
+/* Buttons / Input*/
+button{
+    padding: 10px 24px;
+    background-color:darkslategray;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+button:hover{
+    background-color: #111;
+}
+
+
+input{
+    border: 1px solid grey;
+    padding: 0.5rem ;
+    margin: 1% auto;
+    justify-content: center;
+    color:black;
+    width: 80%;
+}
+
+/* Server Info table */
+
+
+.serverinfo{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    border:1px solid #262626;
+    width: 100%;
+    text-align: center;
+}
+
+.alt1{
+    padding-left: 5px;
+    width: 100%;
+    text-align: center;
+    LINE-HEIGHT: 16px;
+    background-color: #262626;
+    margin-top: 2px;
+}
+
+
+
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid lightgrey;
+    margin: 0.5rem auto;
+    background-color: #333;
+     border-radius: 8px;
+    
+}
+
+.footer h3 {
+    color: white;
+}
+ 
